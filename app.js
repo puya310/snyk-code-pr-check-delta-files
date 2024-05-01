@@ -86,3 +86,8 @@ console.log('token: ' + token);
 http.createServer(app).listen(app.get('port'), function () {
   console.log('Express server listening on port ' + app.get('port'));
 });
+
+const users = [
+  { username: 'user1', password: 'password123' }
+];
+
